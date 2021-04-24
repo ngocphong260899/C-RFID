@@ -17,3 +17,9 @@ C:\Users\ngocp\Desktop\do_luong_mt2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\
 C:\Users\ngocp\Desktop\do_luong_mt2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\ngocp\Desktop\do_luong_mt2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\ngocp\Desktop\do_luong_mt2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\ngocp\Desktop\do_luong_mt2\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EPPlus.dll
+C:\Users\ngocp\Desktop\do_luong_mt2\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\ngocp\Desktop\do_luong_mt2\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\ngocp\Desktop\do_luong_mt2\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EPPlus.xml
+C:\Users\ngocp\Desktop\do_luong_mt2\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\ngocp\Desktop\do_luong_mt2\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete

@@ -61,21 +61,22 @@
             this.rfidi4BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.rfidDataSet = new WindowsFormsApp1.rfidDataSet();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.rfid_i4TableAdapter = new WindowsFormsApp1.rfidDataSetTableAdapters.rfid_i4TableAdapter();
-            this.rfidDataSet1 = new WindowsFormsApp1.rfidDataSet1();
-            this.rfidactBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.rfid_actTableAdapter = new WindowsFormsApp1.rfidDataSet1TableAdapters.rfid_actTableAdapter();
             this.sttDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tenDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.timesDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rfidactBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.rfidDataSet1 = new WindowsFormsApp1.rfidDataSet1();
+            this.rfid_i4TableAdapter = new WindowsFormsApp1.rfidDataSetTableAdapters.rfid_i4TableAdapter();
+            this.rfid_actTableAdapter = new WindowsFormsApp1.rfidDataSet1TableAdapters.rfid_actTableAdapter();
+            this.button6 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rfidi4BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rfidDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.rfidDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rfidactBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rfidDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -368,24 +369,6 @@
             this.dataGridView2.Size = new System.Drawing.Size(340, 168);
             this.dataGridView2.TabIndex = 7;
             // 
-            // rfid_i4TableAdapter
-            // 
-            this.rfid_i4TableAdapter.ClearBeforeFill = true;
-            // 
-            // rfidDataSet1
-            // 
-            this.rfidDataSet1.DataSetName = "rfidDataSet1";
-            this.rfidDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // rfidactBindingSource
-            // 
-            this.rfidactBindingSource.DataMember = "rfid_act";
-            this.rfidactBindingSource.DataSource = this.rfidDataSet1;
-            // 
-            // rfid_actTableAdapter
-            // 
-            this.rfid_actTableAdapter.ClearBeforeFill = true;
-            // 
             // sttDataGridViewTextBoxColumn
             // 
             this.sttDataGridViewTextBoxColumn.DataPropertyName = "stt";
@@ -405,11 +388,40 @@
             this.timesDataGridViewTextBoxColumn.HeaderText = "times";
             this.timesDataGridViewTextBoxColumn.Name = "timesDataGridViewTextBoxColumn";
             // 
+            // rfidactBindingSource
+            // 
+            this.rfidactBindingSource.DataMember = "rfid_act";
+            this.rfidactBindingSource.DataSource = this.rfidDataSet1;
+            // 
+            // rfidDataSet1
+            // 
+            this.rfidDataSet1.DataSetName = "rfidDataSet1";
+            this.rfidDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // rfid_i4TableAdapter
+            // 
+            this.rfid_i4TableAdapter.ClearBeforeFill = true;
+            // 
+            // rfid_actTableAdapter
+            // 
+            this.rfid_actTableAdapter.ClearBeforeFill = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(579, 404);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 10;
+            this.button6.Text = "Export Excel";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label10);
@@ -427,8 +439,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.rfidi4BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rfidDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.rfidDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rfidactBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rfidDataSet1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -475,6 +487,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn sttDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn tenDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn timesDataGridViewTextBoxColumn;
+        private System.Windows.Forms.Button button6;
     }
 }
 
